@@ -1,27 +1,72 @@
 * {
     font-family: Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    background-color:tomato;
-    background-image: linear-gradient(to right,rgba(103, 54, 54, 0.947),black);
-
+    /* outline: 2px solid ; */
+   
+}/* basic styling*/
+body{
+    background-image: linear-gradient(to right,#40404d,black);
 }
-
-
 .image{
-    width:100%;
-    max-width: 800px;
+    width:fit-content; 
+    height: auto;
+    max-width: 700px;
+    padding:5px;
+    outline:4px outset #40404d;
+    border-radius: 5px;
+    margin: 5px auto auto;
+}
+.imagediv{
     text-align: center;
-
-}
-.title{
     
-    font-weight: bold;
+}
+
+.head{
+    padding: 5px;
+    margin: 4px;
+    
+}
+
+.title{
+    box-sizing: border-box;
+    width:fit-content;
+    height:100;
     font-size: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 5px;
+    outline: 5px rgb(64, 64, 77);
+    outline-style: inset;
+    
 }
-h2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.greeting{
+    
+    margin: 10px auto 10px;
+    height:auto;
+    width:auto;
+    font-size: larger;
+    padding: 0px;
+    max-width:700px;
 }
+
+
+
 a{
+    
     font-size: 18px ;
 }
+.indexpage{
+    display: table;
+    margin: 10px auto 10px 0px;
+    
+}
+.stepslist{
+    width: auto;
+    max-width: 700px;
+    padding:0px;
+    margin: -5px auto;
+    font-size: larger;
+}
+
