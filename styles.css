@@ -4,8 +4,10 @@
     /* outline: 2px solid ; */
    
 }/* basic styling*/
-body{
+body,html{
     background-image: linear-gradient(to right,#40404d,black);
+    height:100%;
+    margin:0px;
 }
 .image{
     width:fit-content; 
@@ -23,7 +25,7 @@ body{
 
 .head{
     padding: 5px;
-    margin: 4px;
+    margin: 10px;
     
 }
 
@@ -61,6 +63,10 @@ a{
     display: table;
     margin: 10px auto 10px 0px;
     
+}
+.links{
+    display: table;
+    margin: 10px auto;
 }
 .stepslist{
     width: auto;
