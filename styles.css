@@ -10,7 +10,7 @@ body,html{
     margin:0px;
 }
 .image{
-    width:fit-content; 
+    width:100%; 
     height: auto;
     max-width: 700px;
     padding:5px;
